@@ -20,8 +20,6 @@ $(function() {
     // 切换 下一个兄弟元素 显示隐藏
     $(this).next().stop().slideToggle();
   })
-
-
   // 2. 左边侧边栏切换功能
   $('.icon_menu').click(function() {
     $('.lt_aside').toggleClass("hidemenu");
